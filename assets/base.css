@@ -1,0 +1,72 @@
+body {
+  color: #333;
+  padding-top: 163px;
+}
+
+h1,
+h3 {
+  color: #1F3B8E;
+}
+
+h2 {
+  color: #69D2E7;
+}
+
+a {
+  color: #FF3D7F;
+}
+
+.site {
+  background: #FFF;
+  color: #FF3D7F;
+  display: block;
+  font-family: "Coming Soon", cursive;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 80px;
+  margin-top: 23px;
+}
+
+.site:hover {
+  color: #FF3D7F;
+  text-decoration: none;
+}
+
+.navbar-fixed-top {
+  background: url(/assets/images/colors.gif) top left repeat-x;
+}
+
+.navbar-inner {
+  background: #F9D423;
+}
+
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover {
+  background: #FF3D7F;
+}
+
+.navbar .nav > li > a,
+.navbar .brand {
+  color: #333;
+  text-shadow: none;
+}
+
+.hero-unit {
+  background: url(hero.png) -10px -125px;
+  color: #FFF;
+  padding: 150px 50px 20px 50px;
+  text-shadow: 0 -1px 0 #777;
+}
+
+.hero-unit h1 {
+  font-size: 52px;
+}
+
+.label-info, 
+.badge-info {
+  /*background: #F38630;*/
+}
+
+.carousel-control {
+  top: 35px;
+}
