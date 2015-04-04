@@ -40,23 +40,12 @@
           <span class="icon-bar"></span>
         </button>
         <div class="nav-collapse collapse">
-          <?php $page = basename($_SERVER['PHP_SELF']); ?>
           <ul class="nav">
-            <li class="<?php if ($page == "index.php") { ?>active<?php } ?>">
-              <a href="index.php">Home</a>
-            </li>
-            <li class="<?php if ($page == "enroll.php") { ?>active<?php } ?>">
-              <a href="enroll.php">Enroll</a>
-            </li>
-            <li class="<?php if ($page == "schedule.php") { ?>active<?php } ?>">
-              <a href="schedule.php">Schedule</a>
-            </li>
-            <li class="<?php if ($page == "staff.php") { ?>active<?php } ?>">
-              <a href="staff.php">Staff</a>
-            </li>
-            <li class="">
-              <a href="contact-us.php">Contact Us</a>
-            </li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/enroll.html">Enroll</a></li>
+            <li><a href="/schedule.html">Schedule</a></li>
+            <li><a href="/staff.html">Staff</a></li>
+            <li class="active"><a href="/contact-us.html">Contact Us</a></li>
           </ul>
         </div>
       </div>
